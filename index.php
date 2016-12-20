@@ -1,43 +1,83 @@
+
+<?php
+  include ("validate.php");
+?>
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
-    <title>Lembaga Bimbingan Belajar Arrava</title>
-  <!-- menambahkan css dari bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <!--menambahkan css dari milik kita sendiri-->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- menambahkan java script dari bootstrap -->
-    <script type="text/javascript" src="js/bootstrap.min.js"> </script>
-    <!-- menambahkan java script dari jquery-->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    
-  </head>
+<head>
+  
 
-  <body> 
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed"
-            data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
-            <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand page-scroll" href="#">Home</a> </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li> <a class="page-scroll" href="#about">About</a> </li>
-            <li> <a class="page-scroll" href="#services">Services</a> </li>
-            <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-            <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse --> </div>
-      <!-- /.container-fluid --> </nav>
-    <header id="header" class=""> </header>
-    <!-- /header --> <content> </content>
-    <footer> </footer>
-  </body>
+  <title>PERPOL - Homepage</title>
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">  
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body background="image/background.jpg">
+
+  <!-- navigation bar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.php">Perpustakaan POLIJE</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="search.php">Daftar Buku</a></li>
+          <li><a href="about.php">About</a></li>
+
+        </ul>
+      <ul class="nav navbar-nav navbar-right">
+
+      <a href="login-page.php">
+        <button type="button" class="btn btn-primary btn-md">
+        <span class="glyphicon glyphicon-log-in"></span> Login Admin
+        </button>
+      </a>
+      
+       </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  
+  <div class="container">
+    <!-- body text -->
+    <div class="jumbotron">
+      <img src="image/logo_polije.png" height="200px">
+      <h1 class="page-header">Selamat Datang di Perpustakaan POLIJE</h1>
+      <p>PERPOL atau <strong>Perpustakaan POLIJE</strong> adalah layanan perpustakaan pusat Politeknik Negeri Jember yang ditujukan untuk mempermudah admin perpustakaan POLIJE.</p>
+      <p>Untuk melakukan registrasi keanggotaan dan peminjaman serta pengembalian buku, kunjungi perpustakaan kami pada 
+      hari kerja. Pencarian buku dapat dilakukan di bawah ini.</p>
+    </div>
+
+    <!-- form pencarian buku
+    <div class="well well-lg text-center">
+      <h2 class="text-info">Pencarian Buku</h2>
+
+      <form role="form" action="search.php" class="form-horizontal" method="GET">
+        
+        <select name="category">
+          <option value="judul">Judul buku</option>
+          <option value="pengarang">Pengarang</option>
+          <option value="penerbit">Penerbit</option>
+          <option value="subyek">Subyek</option>
+          <option value="thn_terbit">Tahun terbit</option>
+          <option value="isbn">ISBN</option>
+        </select>
+
+        <input type="text" placeholder="Masukkan kata kunci" name="keyword" required>
+        <input type="submit" name="search" value="cari" class="btn btn-info">
+          
+      </form>
+      
+    </div>
+     -->
+  </div>
+</body>
 </html>
->>>>>>> a7cba2d0fae6364dca6c9ad2d72adb542cdb8c7b
