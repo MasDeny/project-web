@@ -23,7 +23,7 @@
 	</style>
 
 </head>
-<body background="img/bg_lary.png">
+<body background="image/bg_lary.png">
 
 	<!-- navigation bar -->
 	<nav class="navbar navbar-inverse">
@@ -40,7 +40,7 @@
 	      </ul>
 		  <ul class="nav navbar-nav navbar-right">
 
-			<a href="login-page.php">
+			//<a href="login-page.php">
 				<button type="button" class="btn btn-primary btn-md">
 				<span class="glyphicon glyphicon-log-in"></span> Login Admin
 				</button>
@@ -56,7 +56,7 @@
 	<div class="container">
 		<!-- body text -->
 		<div class="jumbotron">
-			<img src="img/logo-box.png" width="550"height="140">
+			<img src="image/logo-box.png" width="550"height="140">
 <h1 class="page-header">WELCOME to POLIJE library </h1>
 			<p>POLIJE LA atau <strong>POLIJE Library Automation</strong> adalah layanan perpustakaan pusat Politeknik Negeri Jember
 			yang ditujukan untuk melayani civitas akademika POLIJE.</p>
