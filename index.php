@@ -10,9 +10,11 @@
 
   <title>PERPOL - Homepage</title>
   
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-  <script src="jquery/jquery-1.11.2.min.js"></script>
-  <script src="bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
   <style type="text/css">
 
     /*to make the background image responsive and cover the page*/
@@ -59,7 +61,7 @@
       <p>Untuk melakukan registrasi keanggotaan dan peminjaman serta pengembalian buku, kunjungi perpustakaan kami pada 
       hari kerja. Pencarian buku dapat dilakukan di bawah ini.</p>
     </div>
-    
+
 		<!-- form pencarian buku -->
 		<div class="well well-lg text-center">
 			<h2 class="text-info">Pencarian Buku</h2>
