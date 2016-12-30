@@ -78,7 +78,11 @@
 				</select>
 
 				<input type="text" placeholder="Masukkan kata kunci" name="keyword" required>
+<<<<<<< HEAD
 				<input type="submit" name="search" value="cari" class="btn btn-info btn-xs">
+=======
+				<input type="submit" name="search" value="cari" class="btn btn-info">
+>>>>>>> master
 					
 			</form>
 			
