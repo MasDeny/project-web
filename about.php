@@ -20,8 +20,8 @@
 	    <div>
 	      <ul class="nav navbar-nav">
 	        <li><a href="index.php">Home</a></li>
-	        <li class="active"><a href="search.php">Daftar Buku</a></li>
-	        <li><a href="">About</a></li>
+	        <li><a href="search.php">Daftar Buku</a></li>
+	        <li class="active"><a href="">About</a></li>
 
 	      </ul>
 		  <ul class="nav navbar-nav navbar-right">

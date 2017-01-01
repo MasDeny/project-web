@@ -67,10 +67,7 @@
 					<option value="isbn">ISBN</option>
 				</select>
 				<input type="text" class="form-control" placeholder="Masukkan kata kunci" name="keyword" required>
-				<input type="submit" name="search" value="cari" class="btn btn-primary">
-				<input type="text" placeholder="Masukkan kata kunci" name="keyword" required>
-				<input type="submit" name="search" value="cari" class="btn btn-info btn-xs">
-				<input type="submit" name="search" value="cari" class="btn btn-info">
+				<input type="submit" name="search" value="cari" class="btn btn-info btn-md">
 			</form>
 			
 		</div>
