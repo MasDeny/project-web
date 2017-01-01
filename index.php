@@ -14,15 +14,6 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  
-  <style type="text/css">
-
-    /*to make the background image responsive and cover the page*/
-    body{
-      background-size: cover;
-    }
-  </style>
-
 </head>
 <body background="image/bg_lary.png">
 
@@ -42,7 +33,7 @@
       <ul class="nav navbar-nav navbar-right">
 
       <a href="login-page.php">
-        <button type="button" class="btn btn-primary btn-md">
+        <button type="button" class="btn btn-primary btn-lg">
         <span class="glyphicon glyphicon-log-in"></span> Login Admin
         </button>
       </a>
@@ -63,12 +54,11 @@
     </div>
 
 		<!-- form pencarian buku -->
-		<div class="well well-lg text-center">
-			<h2 class="text-info">Pencarian Buku</h2>
+		<div class="well well-lg text-center ">
+			<h2 class="page-header">Pencarian Buku</h2>
 
-			<form role="form" action="search.php" class="form-horizontal" method="GET">
-				
-				<select name="category">
+			<form role="form" action="search.php" class="form-group" method="GET">
+				<select name="category" class="form-control">
 					<option value="judul">Judul buku</option>
 					<option value="pengarang">Pengarang</option>
 					<option value="penerbit">Penerbit</option>
@@ -76,10 +66,8 @@
 					<option value="thn_terbit">Tahun terbit</option>
 					<option value="isbn">ISBN</option>
 				</select>
-
-				<input type="text" placeholder="Masukkan kata kunci" name="keyword" required>
-				<input type="submit" name="search" value="cari" class="btn btn-info">
-					
+				<input type="text" class="form-control" placeholder="Masukkan kata kunci" name="keyword" required>
+				<input type="submit" name="search" value="cari" class="btn btn-primary">
 			</form>
 			
 		</div>

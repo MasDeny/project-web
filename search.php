@@ -27,26 +27,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>UNSLA - Pencarian</title>
+	<title>PERPOL - Pencarian</title>
 
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-	<script src="jquery/jquery-1.11.2.min.js"></script>
-	<script src="bootstrap/js/bootstrap.js"></script>
-
-	<style type="text/css">
-
-		/*to make the background image responsive and cover the page*/
-		body{
-			background-size: cover;
-		}
-	</style>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 <body background="img/bg_lib.jpg">
 <!-- navigation bar -->
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="index.php">UNS Library Automation</a>
+	      <a class="navbar-brand" href="index.php">Perpustakaan Polije</a>
 	    </div>
 	    <div>
 	      <ul class="nav navbar-nav">
@@ -58,7 +51,7 @@
 		  <ul class="nav navbar-nav navbar-right">
 
 			<a href="login-page.php">
-				<button type="button" class="btn btn-primary btn-md">
+				<button type="button" class="btn btn-primary btn-lg">
 				<span class="glyphicon glyphicon-log-in"></span> Login Admin
 				</button>
 			</a>
