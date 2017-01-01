@@ -66,8 +66,19 @@
 					<option value="thn_terbit">Tahun terbit</option>
 					<option value="isbn">ISBN</option>
 				</select>
+<<<<<<< HEAD
 				<input type="text" class="form-control" placeholder="Masukkan kata kunci" name="keyword" required>
 				<input type="submit" name="search" value="cari" class="btn btn-primary">
+=======
+
+				<input type="text" placeholder="Masukkan kata kunci" name="keyword" required>
+<<<<<<< HEAD
+				<input type="submit" name="search" value="cari" class="btn btn-info btn-xs">
+=======
+				<input type="submit" name="search" value="cari" class="btn btn-info">
+>>>>>>> master
+					
+>>>>>>> master
 			</form>
 			
 		</div>
