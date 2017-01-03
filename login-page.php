@@ -10,9 +10,8 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/style.js"></script>
   <style type="text/css">
-  	
-  </style>
 
 		/*to make the background image responsive and cover the page*/
 		body{
@@ -20,10 +19,10 @@
 		}
 	</style>
 
-	<title>Login Page</title>
+	<title>Perpustakaan Polije - Login Admin</title>
 </head>
 
-<body background="img/bg_lary.jpg">
+<body background="image/lib-wall.jpg">
 
 	<!-- navigation bar -->
 	<nav class="navbar navbar-inverse">
@@ -64,7 +63,7 @@
 		        <br>
 		        <br>
 		        <div class="col-xs-3">
-		        	<input type="password" name="fPassword" class="form-control" placeholder="PASSWORD" required>
+		        	<input id="password" type="password" name="fPassword" class="form-control" placeholder="PASSWORD" required>
 		        </div>
 		       	<br>
 		       	<br>
@@ -92,5 +91,8 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		$('#password').password();
+	</script>
 </body>
 </html>

@@ -27,14 +27,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PERPOL - Pencarian</title>
+	<title>Perpustakaan Polije - Pencarian</title>
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </head>
-<body background="img/bg_lib.jpg">
+<body background="image/lib-wall.jpg">
 <!-- navigation bar -->
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">

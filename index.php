@@ -8,14 +8,14 @@
 <head>
   
 
-  <title>PERPOL - Homepage</title>
+  <title>Perpustakaan Polije - Homepage</title>
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </head>
-<body background="image/bg_lary.png">
+<body background="image/lib-wall.jpg">
 
   <!-- navigation bar -->
   <nav class="navbar navbar-inverse">
@@ -67,7 +67,7 @@
 					<option value="isbn">ISBN</option>
 				</select>
 				<input type="text" class="form-control" placeholder="Masukkan kata kunci" name="keyword" required>
-				<input type="submit" name="search" value="cari" class="btn btn-info btn-md">
+				<input type="submit" name="search" value="cari" class="btn btn-primary btn-md">
 			</form>
 			
 		</div>

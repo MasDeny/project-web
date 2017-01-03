@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <title>Perpustakaan Polije - Tentang</title>
 </head>
-<body background="img/bg_lib.jpg">
+<body background="image/lib-wall.jpg">
 <!-- navigation bar -->
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
