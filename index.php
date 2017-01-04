@@ -10,9 +10,10 @@
 
 	<title>POLIJE - Homepage</title>
 	
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-	<script src="jquery/jquery-1.11.2.min.js"></script>
-	<script src="bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 	<style type="text/css">
 
@@ -40,7 +41,7 @@
 	      </ul>
 		  <ul class="nav navbar-nav navbar-right">
 
-			//<a href="login-page.php">
+			<a href="login-page.php"> 
 				<button type="button" class="btn btn-primary btn-md">
 				<span class="glyphicon glyphicon-log-in"></span> Login Admin
 				</button>
