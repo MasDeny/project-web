@@ -27,12 +27,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>UNSLA - Pencarian</title>
+	<title>Perpustakaan POLIJE - Pencarian</title>
 
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-	<script src="jquery/jquery-1.11.2.min.js"></script>
-	<script src="bootstrap/js/bootstrap.js"></script>
-
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<style type="text/css">
 
 		/*to make the background image responsive and cover the page*/
@@ -41,12 +41,12 @@
 		}
 	</style>
 </head>
-<body background="img/bg_lib.jpg">
+<body background="image/bg_lary.png">
 <!-- navigation bar -->
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="index.php">UNS Library Automation</a>
+	      <a class="navbar-brand" href="index.php">POLIJE Library Automation</a>
 	    </div>
 	    <div>
 	      <ul class="nav navbar-nav">
