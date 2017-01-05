@@ -27,6 +27,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 	<title>Perpustakaan POLIJE - Pencarian</title>
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -42,11 +43,25 @@
 	</style>
 </head>
 <body background="image/bg_lary.png">
+=======
+	<title>Perpustakaan Polije - Pencarian</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body background="image/lib-wall.jpg">
+>>>>>>> 5dbdf5335f459091a6cb6edef9814b0a20cb4959
 <!-- navigation bar -->
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
+<<<<<<< HEAD
 	      <a class="navbar-brand" href="index.php">POLIJE Library Automation</a>
+=======
+	      <a class="navbar-brand" href="index.php">Perpustakaan Polije</a>
+>>>>>>> 5dbdf5335f459091a6cb6edef9814b0a20cb4959
 	    </div>
 	    <div>
 	      <ul class="nav navbar-nav">
@@ -58,7 +73,7 @@
 		  <ul class="nav navbar-nav navbar-right">
 
 			<a href="login-page.php">
-				<button type="button" class="btn btn-primary btn-md">
+				<button type="button" class="btn btn-primary btn-lg">
 				<span class="glyphicon glyphicon-log-in"></span> Login Admin
 				</button>
 			</a>

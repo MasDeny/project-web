@@ -1,7 +1,7 @@
 <?php
 	//check the connection to database
 	include 'config/connection.php';
-	if(!$connection){
+	if(!$connection){ 
 		die("Maaf, gagal tersambung dengan database.");
 	}
 
