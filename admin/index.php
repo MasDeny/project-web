@@ -6,9 +6,9 @@
 <html>
 <head>
 
-	<link rel="stylesheet" href="../css/bootstrap.min.css">
-	<script src="../css/bootstrap-theme.min.css"></script>
-	<script src="../css/style.css"></script>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+	<script src="../jquery/jquery-1.11.2.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.js"></script>
 	<title>Admin - Homepage</title>
 
 </head>
