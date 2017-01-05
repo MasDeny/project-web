@@ -5,10 +5,10 @@
 <!DOCTYPE html>
 <html>
 <head>    
-	<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-	<script src="../jquery/jquery-1.11.2.min.js"></script>
-	<script src="../bootstrap/js/bootstrap.js"></script>
-
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 	<title>Admin - List Peminjaman</title>
 </head>
 <body>
