@@ -27,6 +27,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
+	<title>Perpustakaan POLIJE - Pencarian</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+
+		/*to make the background image responsive and cover the page*/
+		body{
+			background-size: cover;
+		}
+	</style>
+</head>
+<body background="image/bg_lary.png">
+=======
 	<title>Perpustakaan Polije - Pencarian</title>
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -35,11 +52,16 @@
   <script src="js/bootstrap.min.js"></script>
 </head>
 <body background="image/lib-wall.jpg">
+>>>>>>> 5dbdf5335f459091a6cb6edef9814b0a20cb4959
 <!-- navigation bar -->
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
+<<<<<<< HEAD
+	      <a class="navbar-brand" href="index.php">POLIJE Library Automation</a>
+=======
 	      <a class="navbar-brand" href="index.php">Perpustakaan Polije</a>
+>>>>>>> 5dbdf5335f459091a6cb6edef9814b0a20cb4959
 	    </div>
 	    <div>
 	      <ul class="nav navbar-nav">
