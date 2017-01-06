@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Forbidden Access</title>
-	<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
 	<div class="jumbotron">
