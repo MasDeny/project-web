@@ -51,7 +51,7 @@
         			</a> 
         			<ul class="dropdown-menu">
         				<li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
-						<li><a href="set.php"><span class="glyphicon glyphicon-cog"></span>Setting</a></li>
+						<li><a href="set.php"><span class="glyphicon glyphicon-cog"></span> Setting</a></li>
         			</ul>
         		</li>
         	</ul>
