@@ -5,9 +5,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-	<script src="../jquery/jquery-1.11.2.min.js"></script>
-	<script src="../bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 	<title>Notifikasi penghapusan admin</title>
 </head>
 <body>
@@ -35,9 +36,9 @@
 	$sql = "DELETE FROM petugas WHERE id_petugas = '$id'";
 	$result = mysqli_query($connection, $sql); 
 	if($result){
-		echo "<p class='alert alert-success'>Buku berhasil dihapus!</p>";
+		echo "<p class='alert alert-success'>admin berhasil dihapus!</p>";
 	}else{
-		echo "<p class='alert alert-warning'>Buku masih dipinjam dan tidak dapat dihapus.</p>";
+		echo "<p class='alert alert-warning'>Tidak dapat dihapus.</p>";
 	}
 
 ?>
