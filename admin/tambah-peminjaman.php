@@ -241,13 +241,13 @@
     	var today = now.getFullYear()+"-"+(month)+"-"+(day) ;
 
     	//set default date to tgl_pinjam
-		$('#tgl_pinjam').val(today);
+		$('#tgl_kembali').val(today);
 
 		//date to return book is a week after it's borrowed
 		//so the default is today + 7
 		var returnLoan = now.getFullYear()+"-"+(month)+"-"+(day+7);
 		//set default date to tgl_kembali
-		$('#tgl_kembali').val(returnLoan);
+		$('#tgl_pinjam').val(returnLoan);
 
 	});
 

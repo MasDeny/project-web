@@ -79,7 +79,7 @@
 
 				<div class="form-group">
 					<label for="jenis_kelamin">Jenis kelamin :</label><br>
-					<select name="jenis_kelamin">
+					<select name="jenis_kelamin" class="form-control">
 						<option value="L">Laki-laki</option>
 						<option value="P">Perempuan</option>
 					</select>
@@ -87,7 +87,7 @@
 
 				<div class="form-group">
 					<label for="status">Status :</label><br>
-					<select name="status">
+					<select name="status" class="form-control">
 						<option value="Mahasiswa">Mahasiswa</option>
 						<option value="Dosen">Dosen</option>
 						<option value="Lainnya">Lainnya</option>
@@ -95,7 +95,7 @@
 				</div>
 				<div class="form-group">
 					<label for="Program Studi">Program Studi:</label><br>
-					<select name="Prodi">
+					<select name="Prodi" class="form-control">
 						<option value="Teknik Informatika">Teknik Informatika</option>
 						<option value="Teknik Komputer">Teknik Komputer</option>
 						<option value="Manajemen Informatika">Manajemen Informatika</option>
