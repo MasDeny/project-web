@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <script src="../js/jquery.js"></script>
   <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/style.js"></script>
 	<title>Admin - Edit Admin</title>
 </head>
 <body>
@@ -30,7 +31,7 @@
 	    </div>
 	    <div>
 	       	<ul class="nav navbar-nav navbar-right">
-        		<li><a href="set.php#menu1">Back</a>
+        		<li><a href="set.php">Back</a>
         		</li>
         	</ul>	    	
 	    </div>
@@ -72,7 +73,7 @@
 
 				<div class="form-group">
 					<label for="password">password :</label><br>
-					<input type="text" maxlength="50" name="password" placeholder="isi password" class="form-control" id="password" value="<?php echo $row['password']; ?>" required>
+					<input type="password" maxlength="50" name="password" placeholder="isi password" class="form-control" id="password" value="<?php echo $row['password']; ?>" required>
 				</div>
 
 <?php
@@ -86,7 +87,9 @@
 			</form>
 		</div>
 	</div>
-
+	<script>
+		$('#password').password();
+	</script>
 </body>
 </html>
 
